@@ -1,0 +1,155 @@
+
+
+.wrap {
+    width: 1200px; margin: auto;
+}
+.left_head {
+    width: 49%; float: left; margin: 130px 0 0 0;
+}
+.left_head h3 { 
+    font-size: 2vw;
+    background-color: rgb(135, 239, 31); 
+    text-align: center;
+    color: aliceblue;    
+}
+
+.right_head {
+    width: 49%; float: right; margin: 130px 0 0 0;
+}
+.right_head h3 { 
+    font-size: 2vw;
+    background-color: rgb(135, 239, 31); 
+    text-align: center;
+    color: aliceblue;    
+}
+
+.container {
+    width: 100%;
+   justify-content: center;
+    padding-top: 8vw;
+    display: grid;
+    grid-template-columns: repeat(3, 5vw);
+    grid-template-rows: repeat(3, 5vw);
+    position: relative;
+
+}
+
+
+.container_game {
+   height: 30vw;
+    background-color: cadetblue;
+}
+.container_game2 {
+    height: 30vw;
+    background-color: cadetblue;
+
+}
+.game2 {
+    width: 20rem;
+    float: left;
+    margin: 9vw 0 0 8vw;
+    border: 1px solid red;
+    padding: 42px 0px;
+    background-color: rgb(135, 239, 31);
+}
+#reset {
+    margin: 4vw 0 0 8vw;
+    font-size: 2vw;
+}
+
+
+.info {
+   
+   float: left; 
+   color: aliceblue;
+   font-weight: bold;
+   font-family: Candara;
+   font-size: 2rem;
+   margin: 0 0 0 59px;
+} 
+
+.line {
+    background-color: rgb(197, 197, 246);
+    height: 3px;
+    width: 0;
+    position: absolute;
+    transition: width 1s ease-in-out;
+}
+    
+.box {
+    font-size: 3vw;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.box:hover {
+    background-color: rgb(197, 197, 246);
+}
+
+
+@media only screen and (max-width: 600px)
+  {
+    .wrap {
+        display: contents;
+    }
+    .left_head {
+        width: 60%;
+        float: left;
+        margin: 0 0 0 2rem;
+        height: 3rem;
+    }
+    .left_head h3 {
+        font-size: 7vw;
+    }
+    .game2 {
+        margin: 19vw 0 0 4vw;
+        width: 86%;
+    }
+
+    .info {
+        margin: 0 0 0 1.2rem;
+    }
+    .right_head {
+        width: 80%;
+        float: left;
+        margin: 12rem 0 0 0;
+    }
+
+    .right_head h3 {
+        font-size:7vw;
+    }
+    .container_game {
+        height: 12rem;
+    }
+    .container_game2 {
+        height: 20rem;
+    }
+    .container {
+        height: 10rem;
+        grid-template-columns: repeat(3, 12vw);
+        grid-template-rows: repeat(3, 12vw);
+    }
+
+    #reset {
+        font-size: 6vw;
+        margin: 4vw 0 0 20vw;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
